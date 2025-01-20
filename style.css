@@ -13,19 +13,23 @@ body{
 
 /* Navbar search */
 .navbar>input{
-    margin-top: 12px;
-    margin-bottom: 12px;
-    padding-left: 43px;
-    padding-top: 7px;
-    padding-bottom: 7px;
     width: 500px;
     border-radius: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 45px;
+    margin-top: 12px;
+    margin-bottom: 12px; 
 }
 #searchlogo{
     width: 20px;
     position: absolute;
     top: 35px;
-    left: 362px;
+    left: 810px;
+}
+.navbar>#searchlogo{
+    color: ;
 }
 /* Navbar search */
 
@@ -88,7 +92,7 @@ body{
 .cardset11{width: 125px; padding-top: 19px; padding-left: 32px;}
 .cardset12{width: 140px; padding-top: 25px; padding-left: 28px;}
 .cardset13{width: 140px; padding-top: 30px; padding-left: 15px;}
-.cardset14{width: 140px; padding-top: 32px; padding-left: 18px;}
+.cardset14{width: 140px; padding-top: 33px; padding-left: 18px;}
 
 
 .cardtext1 {text-align: center; font-size: 18px;}
@@ -104,7 +108,7 @@ body{
 .cardtext11{text-align: center; font-size: 18px;}
 .cardtext12{text-align: center; padding-top: 12px; font-size: 18px;}
 .cardtext13{text-align: center; padding-top: 11px; font-size: 18px;}
-.cardtext14{text-align: center; padding-top: 12px; font-size: 18px;}
+.cardtext14{text-align: center; padding-top: 13px; font-size: 18px;}
 /* CARD */
 
 
@@ -126,6 +130,11 @@ body{
 
 .bigCardSet0>img{width: 150px; height: 170px; margin-left: 30px;}
 .bigCardSet0>div>p{font-size: 14px;}
+.bigCardSet0:hover{cursor: pointer; background-color: rgb(243, 241, 241);}
+
+.Cardrup{
+    color: rgb(233, 7, 7);
+}
 
 /* BigCard */
 

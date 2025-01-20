@@ -55,11 +55,15 @@ body{
 /* Navbar text */
 
 /* Cards */
-.bigCardSet>img{height: 170px;}
+.bigCardSet>img{
+    width: 200px; height: 230px;
+    padding-top: 10px;
+    padding-left: 14px;
+    padding-right: 0px;
+}
 .bigCardSet>div>p{font-size: 14px;}
 .bigCardSet:hover{cursor: pointer; background-color: rgb(243, 241, 241);}
 
-.bigCardSet0>img{width: 150px; height: 170px; margin-left: 30px;}
-.bigCardSet0>div>p{font-size: 14px;}
+.Cardrup{color: rgb(206, 18, 18);}
 /* Cards */
 
