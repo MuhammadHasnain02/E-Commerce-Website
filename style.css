@@ -28,9 +28,7 @@ body{
     top: 35px;
     left: 810px;
 }
-.navbar>#searchlogo{
-    color: ;
-}
+
 /* Navbar search */
 
 /* Navbar text */
@@ -199,33 +197,36 @@ body{
 
 
 
-
-
-
+/* // Screen Size 1600px check */
+@media (max-width: 1900px){
+    #searchlogo {
+        left: 902px;
+    }
+}
 /* // Screen Size 1400px check */
-@media (max-width: 1660px){}
+@media (max-width: 1550px){
+    #searchlogo {
+        left: 804px;
+    }
+}
 /* // Screen Size 1200px check */
 @media (max-width: 1399px){
     #searchlogo {
-        width: 20px;
-        position: absolute;
-        top: 35px;
-        left: 270px;
+        left: 684px;
     }
     .navbar>input{width: 460px;}
     .hide{display: none;}
 }
 /* // Screen Size 992px check */
 @media (max-width: 1199px){
-    #searchlogo {
-        width: 20px;
-        position: absolute;
-        top: 35px;
-        left: 195px;
+    #navtext>.navbtn{
+        padding-right: 25px;
+        padding-top: 15px;
+        font-size: 15px;
+        display: flex;
+        display: inline-block;
+        justify-content: center;
     }
-    .navbar>input{width: 430px;}
-    .navbtn>li{font-size: 14px;}
-
 }
 /* // Screen Size 768px check */
 @media(max-width: 991px){}
